@@ -548,12 +548,23 @@ transform: rotate()
 	.mobile-nav-hide {
 		display: none;
 	}
+
+
 }
 
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
+
+	video{
+		display:none;
+	}
+
+	#myBtn1{
+		display:none;
+	}
+
 	.navbar {
 		position: fixed;
 		top: 0;
