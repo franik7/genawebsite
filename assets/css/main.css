@@ -122,6 +122,10 @@ h6 {
 	padding-bottom: 40px;
 }
 
+.section-header-port{
+	padding-bottom: 0px;
+}
+
 .section-header h2 {
 	font-size: 14px;
 	font-weight: 500;
@@ -1136,6 +1140,8 @@ s @media (min-width: 1200px) {
 .pricing1 {
 	margin-top: 60px;
 }
+
+
 
 .pricing .pricing-item {
 	border-bottom: 1px dashed #474a4d;
