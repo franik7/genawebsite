@@ -78,21 +78,19 @@
 
 	<!-- ======= Hero Section ======= -->
 
-	<section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+<section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
 
-		<video autoplay muted loop id="myVideo">
+<video autoplay muted loop id="myVideo" class = "embed-responsive ">
   <source src="assets/video/rain.mp4" type="video/mp4">
 </video>
 
-		<div class="container">
 
 
-			<div class="row justify-content-center">
-
-
+		<div class="container videoText">
+			<div class="row justify-content-center ">
 				<div class="col-lg-6 text-center">
-					<h2>Hi, I'm <span>Gena</span>, Director of Photography and Cameraman</h2>
-					<p>Working on all types of video shooting and editing. Located in Slovakia and covering Europe</p>
+					<h2><span>Hi, I'm Gena, Director of Photography and Cameraman</span></h2><p><span>All types of video shooting and editing. Located in Slovakia and covering Europe</span></p>
+
 					<a href="contact.html" class="btn-get-started">Contact Me</a>
 
 
@@ -103,13 +101,7 @@
 
 
 
-<!-- Optional: some overlay text to describe the video -->
-<div class="contentbutton">
 
-
-  <!-- Use a button to pause/play the video with JavaScript -->
-  <button id="myBtn1" onclick="myFunction()"><i class="bi bi-play"></i></button>
-</div>
 	</section><!-- End Hero Section -->
 
 	<!-- Photo Gallery -->
@@ -331,7 +323,7 @@ function myFunction() {
 	btn.innerHTML = "II";
   } else {
 	video.pause();
-	btn.innerHTML = ">";
+	btn.innerHTML = "<i class="bi bi-play"></i>";
   }
 }
 </script>
